@@ -9,7 +9,9 @@ StandbyState::~StandbyState(){
 };
 
 void StandbyState::draw(){
-    ofClear(255);
+    ofClear(0);
+    app->drawFrame();
+    app->drawPlayer();
 };
 
 void StandbyState::update(){

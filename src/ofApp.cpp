@@ -42,11 +42,11 @@ void ofApp::keyPressed(int key){
             setFullScreen();
             break;
             
-        case 's':
+        case 'S':
             gui->save();
             break;
             
-        case 'l':
+        case 'L':
             gui->load();
             break;
             

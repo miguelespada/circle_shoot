@@ -124,6 +124,7 @@
 		49F2115F1BEFB16200EED0B4 /* app.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = app.h; sourceTree = "<group>"; };
 		49F211611BEFB20600EED0B4 /* standByState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = standByState.cpp; sourceTree = "<group>"; };
 		49F211621BEFB20600EED0B4 /* standByState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = standByState.h; sourceTree = "<group>"; };
+		49F211651BEFBBE300EED0B4 /* player.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = player.hpp; sourceTree = "<group>"; };
 		4B948DEC4411B26F3C9BE5DE /* assets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = assets.cpp; path = src/assets.cpp; sourceTree = SOURCE_ROOT; };
 		4E95FB446A9C9C6F0DE12D75 /* OscPrintReceivedElements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscPrintReceivedElements.h; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.h; sourceTree = SOURCE_ROOT; };
 		52AFA1F08C420992CAAAE648 /* ofxSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSlider.h; path = ../../../addons/ofxGui/src/ofxSlider.h; sourceTree = SOURCE_ROOT; };
@@ -279,6 +280,7 @@
 				49F211541BEFAD5F00EED0B4 /* oscAdapter.hpp */,
 				49F2115E1BEFB16200EED0B4 /* app.cpp */,
 				49F2115F1BEFB16200EED0B4 /* app.h */,
+				49F211651BEFBBE300EED0B4 /* player.hpp */,
 				49F211611BEFB20600EED0B4 /* standByState.cpp */,
 				49F211621BEFB20600EED0B4 /* standByState.h */,
 			);
