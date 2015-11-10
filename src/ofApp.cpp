@@ -20,6 +20,8 @@ void ofApp::setup(){
     ofSetBackgroundAuto(false);
     ofSetWindowPosition(0, 0);
     
+    ofSetCircleResolution(300);
+    
 }
 
 //--------------------------------------------------------------
@@ -30,17 +32,17 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
     app->draw();
-    gui->draw();
+//    gui->draw();
 }
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
     switch (key) {
             
-        case 'f':
-            bFull = !bFull;
-            setFullScreen();
-            break;
+//        case 'f':
+//            bFull = !bFull;
+//            setFullScreen();
+//            break;
             
         case 'S':
             gui->save();
@@ -50,6 +52,7 @@ void ofApp::keyPressed(int key){
             gui->load();
             break;
             
+
         case '0':
             gui->toggleVisibility();
             break;

@@ -1,49 +1,77 @@
-class Player
-{
-    float angle;
-    float speed;
-    
+#include "projectile.hpp"
+
+class Player: public Object{
+
+    int score;
 public:
-    Player(){
-        angle = 0;
-        speed = 0;
+    
+    Player(int a){
+        angle = a;
+        speed = 2;
+        score = 0;
+        bContact = false;
+    }
+    
+    void update(){
+        bContact = false;
+        x = (ofGetWidth()/2 - 35) * cos(ofDegToRad(angle));
+        y = (ofGetWidth()/2 - 35) * sin(ofDegToRad(angle));
     }
     
     void draw(){
-        
-        angle += speed;
+        drawCircle();
+    }
+    
+    void drawCircle(){
         
         ofPushMatrix();
         ofPushStyle();
         ofTranslate(ofGetWidth()/2, ofGetHeight()/2);
-        ofSetColor(255, 0, 0);
-        
-        float x = (ofGetWidth()/2 - 35) * cos(ofDegToRad(angle));
-        float y = (ofGetWidth()/2 - 35) * sin(ofDegToRad(angle));
-        
-        ofSetColor(255, 0, 0);
+        ofSetColor(0 );
+    
         
         ofTranslate(x, y);
         
         ofRotate(ofRadToDeg(-atan2(x, y)));
-        ofCircle(0, 0, 25);
+        ofCircle(0, 0, getRadious());
+        
         
         ofSetColor(0);
-        ofLine(0, 0, 0, -500);
-        
         ofPopStyle();
         ofPopMatrix();
     }
     
     void up(){
-        speed = 2;
+        angle += speed;
     }
     
     
     void down(){
-        speed = -2;
+        angle -= speed;
     }
     
+    float getAngle(){
+        return angle;
+    }
+    
+    void incScore(){
+        score ++;
+    }
+    
+    int getRadious(){
+        return 25;
+    }
+    
+    Projectile *newProjectile(){
+        return new Projectile(angle, ofGetHeight()/2 - (getRadious() * 2 + 15)  );
+    }
+    
+    void die(){
+    }
+    
+    int getScore(){
+        return score;
+    }
 };
 
 

@@ -25,6 +25,9 @@ public:
     virtual void draw()=0;
     virtual void update()=0;
     virtual void reset(){};
+    virtual void fire(){
+        next();
+    }
 };
 
 

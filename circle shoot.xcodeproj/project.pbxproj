@@ -13,6 +13,8 @@
 		28090DEB5109115003E8F1C5 /* UdpSocketWin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5928AA323F5C2690B06C837D /* UdpSocketWin.cpp */; };
 		39C89FCC977D16B15BF7BDFE /* baseAssets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E51E3D05CA81B27F4B91319 /* baseAssets.cpp */; };
 		483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78D67A00EB899FAC09430597 /* ofxLabel.cpp */; };
+		4952A8381BF1793C000AA6CD /* runningState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4952A8361BF1793C000AA6CD /* runningState.cpp */; };
+		4952A83C1BF17A2F000AA6CD /* scoreState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4952A83A1BF17A2F000AA6CD /* scoreState.cpp */; };
 		49AA5C5F5D4C471218D5B0E3 /* baseState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1EAF0215F3CB3EEA2F412080 /* baseState.cpp */; };
 		49F211521BEFAB1F00EED0B4 /* gui.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 49F211511BEFAB1F00EED0B4 /* gui.hpp */; };
 		49F211551BEFAD5F00EED0B4 /* oscAdapter.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 49F211541BEFAD5F00EED0B4 /* oscAdapter.hpp */; };
@@ -118,6 +120,11 @@
 		44E85CB12615AE2DF06AB826 /* BaseOscAdapter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = BaseOscAdapter.h; path = src/BaseOscAdapter.h; sourceTree = SOURCE_ROOT; };
 		47EADD74A00E26E8E1291F2A /* baseApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = baseApp.h; path = src/baseApp.h; sourceTree = SOURCE_ROOT; };
 		48974F980F51769171D0B2F5 /* IpEndpointName.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = IpEndpointName.h; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/IpEndpointName.h; sourceTree = SOURCE_ROOT; };
+		4952A8351BF16E28000AA6CD /* object.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = object.hpp; sourceTree = "<group>"; };
+		4952A8361BF1793C000AA6CD /* runningState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = runningState.cpp; sourceTree = "<group>"; };
+		4952A8371BF1793C000AA6CD /* runningState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = runningState.h; sourceTree = "<group>"; };
+		4952A83A1BF17A2F000AA6CD /* scoreState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scoreState.cpp; sourceTree = "<group>"; };
+		4952A83B1BF17A2F000AA6CD /* scoreState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scoreState.h; sourceTree = "<group>"; };
 		49F211511BEFAB1F00EED0B4 /* gui.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = gui.hpp; sourceTree = "<group>"; };
 		49F211541BEFAD5F00EED0B4 /* oscAdapter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = oscAdapter.hpp; sourceTree = "<group>"; };
 		49F2115E1BEFB16200EED0B4 /* app.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = app.cpp; sourceTree = "<group>"; };
@@ -125,6 +132,8 @@
 		49F211611BEFB20600EED0B4 /* standByState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = standByState.cpp; sourceTree = "<group>"; };
 		49F211621BEFB20600EED0B4 /* standByState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = standByState.h; sourceTree = "<group>"; };
 		49F211651BEFBBE300EED0B4 /* player.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = player.hpp; sourceTree = "<group>"; };
+		49F211661BEFBE8C00EED0B4 /* projectile.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = projectile.hpp; sourceTree = "<group>"; };
+		49F211681BEFD9EA00EED0B4 /* ball.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ball.hpp; sourceTree = "<group>"; };
 		4B948DEC4411B26F3C9BE5DE /* assets.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = assets.cpp; path = src/assets.cpp; sourceTree = SOURCE_ROOT; };
 		4E95FB446A9C9C6F0DE12D75 /* OscPrintReceivedElements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscPrintReceivedElements.h; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscPrintReceivedElements.h; sourceTree = SOURCE_ROOT; };
 		52AFA1F08C420992CAAAE648 /* ofxSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSlider.h; path = ../../../addons/ofxGui/src/ofxSlider.h; sourceTree = SOURCE_ROOT; };
@@ -277,12 +286,19 @@
 		49EC40FD1BE6317600A43858 /* app */ = {
 			isa = PBXGroup;
 			children = (
-				49F211541BEFAD5F00EED0B4 /* oscAdapter.hpp */,
 				49F2115E1BEFB16200EED0B4 /* app.cpp */,
 				49F2115F1BEFB16200EED0B4 /* app.h */,
 				49F211651BEFBBE300EED0B4 /* player.hpp */,
+				4952A8351BF16E28000AA6CD /* object.hpp */,
+				49F211661BEFBE8C00EED0B4 /* projectile.hpp */,
+				49F211681BEFD9EA00EED0B4 /* ball.hpp */,
 				49F211611BEFB20600EED0B4 /* standByState.cpp */,
 				49F211621BEFB20600EED0B4 /* standByState.h */,
+				4952A8361BF1793C000AA6CD /* runningState.cpp */,
+				4952A8371BF1793C000AA6CD /* runningState.h */,
+				4952A83A1BF17A2F000AA6CD /* scoreState.cpp */,
+				4952A83B1BF17A2F000AA6CD /* scoreState.h */,
+				49F211541BEFAD5F00EED0B4 /* oscAdapter.hpp */,
 			);
 			name = app;
 			sourceTree = "<group>";
@@ -298,8 +314,8 @@
 				47EADD74A00E26E8E1291F2A /* baseApp.h */,
 				6E51E3D05CA81B27F4B91319 /* baseAssets.cpp */,
 				1F58CB0D9A9522C0A4EDE23B /* baseAssets.h */,
-				1EAF0215F3CB3EEA2F412080 /* baseState.cpp */,
 				7840864731B008A99DAFA3C7 /* baseState.h */,
+				1EAF0215F3CB3EEA2F412080 /* baseState.cpp */,
 			);
 			name = base;
 			sourceTree = "<group>";
@@ -633,6 +649,7 @@
 				49F211521BEFAB1F00EED0B4 /* gui.hpp in Sources */,
 				79F76218DACB7B009EABAB5F /* baseApp.cpp in Sources */,
 				39C89FCC977D16B15BF7BDFE /* baseAssets.cpp in Sources */,
+				4952A8381BF1793C000AA6CD /* runningState.cpp in Sources */,
 				49AA5C5F5D4C471218D5B0E3 /* baseState.cpp in Sources */,
 				BEB37B715DDCF2F4439E0D72 /* BaseOscAdapter.cpp in Sources */,
 				929A4A179E259697FCB015AF /* singletonAssets.cpp in Sources */,
@@ -662,6 +679,7 @@
 				0546D1A38E13BD319CC9755B /* OscReceivedElements.cpp in Sources */,
 				879A251454401BC0B6E4F238 /* OscTypes.cpp in Sources */,
 				BEDFEE7400C58EA4E412B757 /* ofxJSONElement.cpp in Sources */,
+				4952A83C1BF17A2F000AA6CD /* scoreState.cpp in Sources */,
 				FB84AAF8D1B7A95266DB5C09 /* jsoncpp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
